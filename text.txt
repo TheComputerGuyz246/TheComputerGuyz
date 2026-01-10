@@ -1,50 +1,48 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #000;
-  color: #fff;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TheComputerGuyz | Tech Support & IT Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-.hero {
-  padding: 60px 20px;
-}
+  <header class="hero">
+    <img src="logo.png" alt="TheComputerGuyz Logo" class="logo">
+    <h1>TheComputerGuyz</h1>
+    <p>Your Trusted Computer & IT Solutions</p>
+  </header>
 
-.logo {
-  max-width: 220px;
-  margin-bottom: 20px;
-}
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>💻 Computer Repair & Maintenance</li>
+      <li>🛜 Network Setup & Troubleshooting</li>
+      <li>🧹 Virus & Malware Removal</li>
+      <li>⚙️ Software Installation & Support</li>
+      <li>📱 Tech Support (Home & Small Business)</li>
+    </ul>
+  </section>
 
-h1 {
-  color: #ff4fd8;
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      TheComputerGuyz provides reliable, affordable, and professional
+      computer services. Whether you’re a home user or a small business,
+      we’ve got you covered.
+    </p>
+  </section>
 
-h2 {
-  color: #ff4fd8;
-  margin-top: 40px;
-}
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <strong>thecomputerguyz@email.com</strong></p>
+    <p>Phone: <strong>(246) 000-0000</strong></p>
+  </section>
 
-.services ul {
-  list-style: none;
-  padding: 0;
-}
+  <footer>
+    <p>© 2026 TheComputerGuyz. All Rights Reserved.</p>
+  </footer>
 
-.services li {
-  padding: 10px;
-  font-size: 1.1rem;
-}
-
-.about, .contact {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-}
-
-footer {
-  margin-top: 50px;
-  padding: 20px;
-  background: #111;
-  font-size: 0.9rem;
-}
+</body>
+</html>
