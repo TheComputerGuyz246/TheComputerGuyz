@@ -4,14 +4,7 @@ body {
   background: #000;
   color: #fff;
   text-align: center;
-}
-.about-image {
-  width: 250px;
-  max-width: 100%;
-  border-radius: 10px;
-  display: block;
-  margin: 20px auto;
-}
+
 .hero {
   padding: 60px 20px;
 }
